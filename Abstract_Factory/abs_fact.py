@@ -1,2 +1,3 @@
 class AbstractFactory:
-    def __init
+    def __init__(self):
+        self.p = 3
