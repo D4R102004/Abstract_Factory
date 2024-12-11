@@ -1,3 +1,6 @@
 class AbstractFactory:
     def __init__(self):
-        self.p = 3
+        self._p = 3
+    @property
+    def p(self):
+        return self._p
